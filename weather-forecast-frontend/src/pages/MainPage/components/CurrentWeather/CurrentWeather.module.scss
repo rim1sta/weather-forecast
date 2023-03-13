@@ -57,7 +57,7 @@
 @media (max-width: 850px) {
   .currentWeather {
     flex-direction: column;
-    align-items: center;
+    justify-content: flex-start;
     padding: 12px;
     &__tempContainer {
       flex-direction: column;
@@ -67,6 +67,10 @@
     }
     &__temp {
       font-size: 24px;
+    }
+
+    &__buttontUpdate {
+      width: 130px;
     }
   }
 }
