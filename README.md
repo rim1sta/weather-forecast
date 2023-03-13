@@ -10,7 +10,7 @@
 git clone https://github.com/rim1sta/weather-forecast.git
 ```
 ```
-cd weather-forecast/yoomoney
+cd weather-forecast
 ```
 
 Собрать образы и запустить приложение:
