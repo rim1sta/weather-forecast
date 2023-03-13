@@ -1,5 +1,7 @@
 # Тестовое задание Yoomoney
 
+[yoomoney-weather](https://kostya.yoomoney-test.ru/) - адрес приложения
+
 Разработано приложение по получению погоды, основанное на текущей геопозиции.
 
 ## Как запустить проект:
@@ -10,16 +12,17 @@
 git clone https://github.com/rim1sta/weather-forecast.git
 ```
 ```
-cd weather-forecast/yoomoney
+cd weather-forecast
 ```
-
+Убедитесь, что 80 порт свободен.
 Собрать образы и запустить приложение:
 
 ```
 docker-compose up --build -d
 ```
 
-приложение будет доступно по http://127.0.0.1
+Приложение будет доступно по адресу http://127.0.0.1
+
 
 ## Использованные технологии
 
