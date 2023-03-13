@@ -1,0 +1,31 @@
+version : '3.8'
+
+services:
+  nginx:
+    container_name: yoomoney-nginx
+    image: nginx:1.21.1
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./nginx/configs:/etc/nginx/conf.d:ro
+    depends_on:
+      - backend
+    ports:
+      - "80:80"
+
+  backend:
+    container_name: yoomoney-backend
+    build:
+      context: ./weather-forecast-backend
+      dockerfile: Dockerfile
+    tty: true
+    expose:
+      - "3100"
+
+  frontend:
+    container_name: yoomoney-frontend
+    build:
+      context: ./weather-forecast-frontend
+      dockerfile: Dockerfile
+    tty: true
+    expose:
+      - "3000"

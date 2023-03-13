@@ -1,0 +1,17 @@
+.forecastItem {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  background-color: #fff;
+  border-radius: 8px;
+
+  &__icon {
+    width: 96px;
+    height: 96px;
+  }
+
+  &__minMaxTemps {
+    display: flex;
+    gap: 8px;
+  }
+}
