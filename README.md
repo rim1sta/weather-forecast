@@ -1,6 +1,6 @@
 # Тестовое задание Yoomoney
 
-*[yoomoney-weather](https://kostya.yoomoney-test.ru/) - адрес приложения
+[yoomoney-weather](https://kostya.yoomoney-test.ru/) - адрес приложения
 
 Разработано приложение по получению погоды, основанное на текущей геопозиции.
 
