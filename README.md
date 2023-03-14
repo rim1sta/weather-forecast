@@ -14,6 +14,9 @@ git clone https://github.com/rim1sta/weather-forecast.git
 ```
 cd weather-forecast
 ```
+
+Для развертывания приложения вам потребуется Docker и Docker-compose.
+
 Убедитесь, что 80 порт свободен.
 Собрать образы и запустить приложение:
 
